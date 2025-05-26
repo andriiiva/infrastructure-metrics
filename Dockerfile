@@ -1,0 +1,6 @@
+FROM grafana/grafana:12.0.1
+
+ENV GF_SERVER_HTTP_PORT=8080
+EXPOSE 8080
+
+CMD ["/run.sh"]
